@@ -31,20 +31,6 @@ Rezultatul: botul rezolvă automat lista data de cuvinte in folderul "data" și 
 
 ---
 
-## Ghid Rulare
-1. Asigură-te că ești în folderul principal al proiectului.  
-2. Rulează:
-   ```
-   python src/hangman.py
-   ```
-3. Botul va:
-    - citi cuvintele din data/words.txt
-    - încerca să le rezolve
-    - scrie rezultatele în results/results.txt
-    - nota erorile în results/errors.txt
-
----
-
 ## Format fișier de input
 Fiecare linie din words.txt trebuie să fie de forma urmatoare
 ```
@@ -54,8 +40,7 @@ Exemplu:
 
 ---
 
-## Format fișier de output
-`results.txt`:  
+## Format fișier de output `results.txt`:  
 ```
 game_id, attempts, solution, status, guessed_sequence
 ```
@@ -64,3 +49,21 @@ Exemplu:
 ```
 
 La final, este afișat și numărul total de încercări
+
+---
+
+## Ghid Rulare
+```
+1. Asigură-te că ești în folderul principal al proiectului.
+2. Asigură-te că fisierul "data\words.txt" exista si este valid
+3a. Rulează cu double click:
+   src/hangman.py
+sau, din command prompt:
+3b. {locatia folderului de proiect}\src\hangman.py
+```
+
+Botul va:
+    - citi cuvintele din data/words.txt
+    - încerca să le rezolve
+    - scrie rezultatele în results/results.txt
+    - nota erorile în results/errors.txt
