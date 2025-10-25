@@ -4,13 +4,15 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>3f93d571-981b-4cf9-9a46-d1b877011b93</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>src\hangman.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Hangman Bot</Name>
     <RootNamespace>Hangman Bot</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -28,7 +30,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="data\words.txt" />
-    <Content Include="docs\requirements.txt" />
+    <Content Include="README.md" />
+    <Content Include="requirements.txt" />
     <Content Include="results\errors.txt" />
     <Content Include="results\results.txt" />
   </ItemGroup>

@@ -1,1 +1,1 @@
-python >= v3.6
+python version >= v3.6
