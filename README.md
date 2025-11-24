@@ -1,5 +1,6 @@
 ## Descriere
-Acest proiect implementează un **bot de spânzurătoare** pentru cuvinte românești
+Acest proiect implementează un **bot de spânzurătoare** pentru cuvinte românești.
+
 Botul ghicește litere pe baza unor reguli simple:
 - diferențiere între vocale și consoane, schimband intre vocale si consoane pentru ghicire
 - identificarea diftongilor și hiaturilor (sanse mari de success, dar nu garantate)
